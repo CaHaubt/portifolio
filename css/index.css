@@ -63,6 +63,9 @@ body {
 .profile-img {
     width: 39%;
     text-align: center;
+
+    animation-name: profile-img;
+    animation-duration: 5s;
 }
 
 .profile-img img{
@@ -88,4 +91,9 @@ body {
     color: #70A288;
     margin-top: -26px;
     font-weight: 100;
+}
+
+@keyframes profile-img {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }

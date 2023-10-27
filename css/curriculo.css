@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #051923;
+    font-family: Montserrat, sans-serif;
+}
+
+.navigation {
+    background-color: #051923;
+    color: #FFFBFF;
+    height: 56px;
+}
+
+.navigation ul{
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    height: 56px;
+    text-align: right;
+
+}
+
+.navigation li {
+    display: inline-block;
+    line-height: 56px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 100;
+
+   
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #FFFBFF;
+
+}
+
+.navigation li:hover {
+    background-color: #C23350;
+    opacity: 0.5;
+}
+
+.main {
+    padding-top: 40px;
+    padding-right: 180px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+    /* ou pode fazer tudo na mesma linha padding: 40px 180px 80px 100px */
+}
+
+.main h1{
+    color: #C23350;
+    font-size: 32px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.main h2{
+    color: #70A288;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.main h3{
+    color: #C23350;
+    font-size: 16px;
+}
+
+.main p{
+    color: #FFFBFF;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: justify;
+    
+}
+
+.profile-img {
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.idioma{
+    clear: left;
+}
+
+.profile-img img{
+    width: 250px;
+    
+}
+
+.caminho {
+    list-style: none;
+    color: gray;
+    padding-left: 0;
+}
+
+.caminho li{
+    display: inline-block;
+}
+
+.caminho a {
+    color: gray;
+}
