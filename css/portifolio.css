@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #051923;
+    font-family: Montserrat, sans-serif;
+}
+
+.navigation {
+    background-color: #051923;
+    color: #FFFBFF;
+    height: 56px;
+}
+
+.navigation ul{
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    height: 56px;
+    text-align: right;
+
+}
+
+.navigation li {
+    display: inline-block;
+    line-height: 56px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 100;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #FFFBFF;
+
+}
+
+.navigation li:hover {
+    background-color: #C23350;
+    opacity: 0.5;
+}
+
+.caminho {
+    list-style: none;
+    color: gray;
+    padding-left: 0;
+}
+
+.caminho li{
+    display: inline-block;
+}
+
+.caminho a {
+    color: gray;
+}
+
+
+.main {
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+}
+
+.main h1{
+    color: #C23350;
+    font-size: 32px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.main p{
+    color: #FFFBFF;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: justify;
+    
+}
+
+.portifolio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portifolio-img {
+  width: calc(33.33% - 50px);
+  position: relative;
+}
+
+.portifolio-img img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.portifolio-img:hover img {
+  opacity: 0.5;
+}
+
+.paragrafo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.portifolio-img:hover .paragrafo  {
+  opacity: 1;
+}
