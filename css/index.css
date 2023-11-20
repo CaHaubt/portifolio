@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
 }
 
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #051923;
     font-family: Montserrat, sans-serif;
 }
@@ -30,7 +34,6 @@ body {
     padding-right: 30px;
     font-weight: 100;
 
-   
 }
 
 .navigation a {
@@ -43,8 +46,6 @@ body {
     background-color: #C23350;
     opacity: 0.5;
 }
-
-
 
 .capa {
     color: #FFFBFF;
@@ -91,6 +92,7 @@ body {
     color: #70A288;
     margin-top: -26px;
     font-weight: 100;
+    font-family: 'Fira Code', monospace;
 }
 
 @keyframes profile-img {

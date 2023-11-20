@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Montserrat:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #051923;
+    font-family: Montserrat, sans-serif;
+}
+
+body h1{
+    font-size: 32px;
+    color: #C23350;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body h2 {
+   font-size: 18px;
+    color: #70A288;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body p {
+    font-size: 16px;
+    color: #FFFBFF;
+    font-family: 'Fira code', monospace;
+
+ }
+
+.navigation {
+    background-color: #051923;
+    color: #FFFBFF;
+    height: 56px;
+}
+
+.navigation ul{
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    height: 56px;
+    text-align: right;
+
+}
+
+.navigation li {
+    display: inline-block;
+    line-height: 56px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 100;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #FFFBFF;
+
+}
+
+.navigation li:hover {
+    background-color: #C23350;
+    opacity: 0.5;
+}
+
+.img__contato img {
+    width: 450px;
+    
+}
+
+.contato{
+    margin: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contato__informacoes{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contato__links{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.contato__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #C23350;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #FFFBFF;
+    font-family: 'Fira Code', monospace;
+
+}
+
+.contato__links__link:hover {
+    background-color: #092635;
+    
+}
+
+.rodape {
+    padding: 18px;
+    background-color: #70A288;
+    text-align: center;
+    font-size: 18px;
+}
